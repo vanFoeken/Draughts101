@@ -25,7 +25,7 @@ MouseListener -> player move
 3. MinMax
 Basic minimax algoritme with alfa beta pruning.
 
-Extends HashMap to prevent dubble calculations.
-Uses bitboards.
+Uses bitboards for faster and HashMap (board, value) for no dubble calculations.
 
 1 depth = 2 moves, when depth == 0 continues as long as maxCapture > 0.
+
