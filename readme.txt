@@ -16,7 +16,7 @@ Light board with dark tiles in the center of a JFrame (main).
 2. Game
 Loop and logic.
 
--turn -> get pieces (white and black), get moves and maxCapture -> gameover or move.
+-turn -> get pieces (white and black), get moves and maxCapture -> gameover or move (player mouse and ai MinMax).
 -move -> do move (animation) and return new color.
 
 ActionListener -> undo move
@@ -26,3 +26,4 @@ MouseListener -> player move
 Basic minimax algoritme with alfa beta pruning.
 Uses bitboards for faster calculations and HashMap (board, value) to prevent dubble.
 1 depth = 2 moves -> depth == 0 continues as long as maxCapture > 0.
+
